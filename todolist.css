@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(to left, #dbbeca,#cc8aa6, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dbbeca,#cc8aa6, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* display: flex;     */
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+    max-width: 540px;
+    /* height: 50vh; */
+    background-color:  #f8f6ffa7;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 40px 30px 60px;
+}
+
+h1 {
+    color: #5b0b5e;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;/* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(113, 113, 134); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0;
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+      typing 2.55s steps(40, end) forwards,
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 38% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(113, 113, 134) }
+  }
+  
+  
+.input
+{
+    justify-content: center;
+    /* display: flex; */
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    font-size: .7rem;
+}
+
+.input .add{
+    background-color: #ffffff5b;
+    /* padding: 8px; */
+    width:75%;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+input{
+    background-color: transparent;
+    color: #141417;
+    font-size: .7rem;
+    border: none;
+    padding: 12px;
+    outline: none;
+    width: 100%;
+}
+
+.input button{
+    background-color:  #654ea3;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 19px;
+    text-align: left;
+    font-size: .6rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.list ul{
+    list-style: none;
+    padding: 0;
+    margin: 25px 40px 0px 30px;
+    height: 50%;
+    overflow-y: auto;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 1.5rem;
+}
+
+ ul li{
+    list-style: none;
+    font-size: 1rem;
+    padding: 10px 0px 12px 40px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/16/16894.png);
+    background-size: cover;
+    background-position: center;
+    left: 10px;
+    top: 18px;
+}
+
+ul li.checked{
+    text-decoration: line-through;
+    color: #584f4f;
+}
+
+.checked::before{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Eo_circle_purple_white_checkmark.svg/1200px-Eo_circle_purple_white_checkmark.svg.png);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    left: 10px;
+    top: 18px;
+}
+
+ul li span{
+    position: absolute;
+right: 0px;
+top: 5px;
+width: 40px;
+height: 40px;
+font-size: 25px;
+color: #121111;
+line-height: 40px;
+text-align: center;
+border-radius: 50%;
+}
+
+span:hover{
+    background-color: #9383be;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
