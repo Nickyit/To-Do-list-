@@ -1,9 +1,19 @@
-# To-Do-list-
+# 📝To-Do-list-
 
 This is my second repository.
 <br>
-This is To Do List for add your task and remove after complition.
-<br>
-This psge is built usnig HTML, CSS, and JS. 
-<br>
-This is very basic project.
+A simple and user-friendly To-Do List application built using HTML, CSS, and JavaScript. This project helps users manage daily tasks by adding, deleting, and marking tasks as completed.
+
+##🚀 Features
+
+Add new tasks easily
+Mark tasks as completed
+Delete tasks
+Clean and responsive UI
+Lightweight and fast (no frameworks)
+
+## 🛠️ Technologies Used
+
+HTML5
+CSS3
+JavaScript (Vanilla JS)
