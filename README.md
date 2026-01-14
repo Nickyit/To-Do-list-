@@ -4,7 +4,7 @@ This is my second repository.
 <br>
 A simple and user-friendly To-Do List application built using HTML, CSS, and JavaScript. This project helps users manage daily tasks by adding, deleting, and marking tasks as completed.
 
-##🚀 Features
+## 🚀 Features
 
 Add new tasks easily
 Mark tasks as completed
