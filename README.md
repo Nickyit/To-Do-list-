@@ -17,3 +17,11 @@ Lightweight and fast (no frameworks)
 HTML5
 CSS3
 JavaScript (Vanilla JS)
+
+## 📂 Project Structure
+To-Do-list/
+│
+├── todolist.html   # Main HTML file
+├── todolist.css    # Styling file
+├── todolist.js     # JavaScript logic
+└── README.md       # Project documentation
